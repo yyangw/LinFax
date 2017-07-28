@@ -1,0 +1,91 @@
+Things to do sometime:
+
+- ALSA: Move ALSA code to a new class, e.g. SoundAlsa and only have OSS code in
+  the class Sound
+
+- hamlib: Move hamlib code to new file, e.g. PttHamlib
+
+- hamlib/PTT: Implement abstract interface for calling into e.g. PttSerial and
+  PttHamlib
+
+- build: Implement build with CMake
+
+- Config: change config readEntry/writeEntry, so that caller does not have to put
+  /hamfax/ every time.
+
+- I18N: gettext for translations, instead of QObject::tr(). This avoids using
+  QObject in every file.
+
+- sf feat #774129 "Receive from wav files": Maybe implement a new FileLibsnd
+  interface using libsndfile to allow different file formats:
+  http://www.mega-nerd.com/libsndfile/
+
+- sf feat #2789642 "Command-line mode for sending/receiving images without GUI"
+
+- use correct types (size_t, ssize_t, ...)
+
+- possibility for selecting desired input/output options (reduce number of menu
+  entries)
+
+- menu for some "standard modes"
+
+- add slider to dialogs for selecting ioc
+
+- switch for deciding whether to wait for apt start (and stop?)
+
+- improve user documentation
+
+- test AM
+
+- add switch for deciding whether to determine the lpm from phasing
+   lines or use a fixed value; adding a control for rx lpm
+
+- possibility for changing lpm after reception to specific value
+   (slant correction does this implicitly)
+
+- correct beginning of line out of stored samples
+   (necessary for correction of color facsimile)
+
+- possibility for permanent slant correction
+
+- some sort of preview while decoding apt and phasing lines
+
+- CW id before and after transmission
+
+- automatic reception (perhaps a background/daemon process doing the work)
+
+- setting the frequency on the transceiver, perhaps having a daemon process
+   (have a look at hamlib)
+
+- rewrite backend functions (e.g. encoder/decoder) in C to reuse, e.g. in cli
+
+- implement abstract base class for Sound, File and Ptc (see e.g. void
+  FaxWindow::endTransmission(void))
+
+- implement and test meteosat support
+
+- enumerate alsa devices with int snd_device_name_hint for OptionDialog
+
+- update Doxygen docu and create proper document
+
+- implement optional stop after n lines, in case apt stop signal does not work
+
+- save slant correction in config file
+
+- implement variable sample rate
+
+- save ioc in config
+
+- allow slant correction while reception is still running
+
+- Sound: Get user defined sample rate from Config/OptionsDialog instead of
+  environment file
+
+- consolidate documentation in html or docbook xml; keep one delete the other
+
+- FaxWindow: remove "int interface", split endReception and endTransmit() in
+  three functions each
+
+- Spectrum: remove pixmap member; instead of drawing on the pixmap and then the
+  pixmap on the QFrame, buffer the data and directly draw on the QFrame during
+  the PaintEvent

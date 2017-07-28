@@ -1,0 +1,1000 @@
+commit d900720
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    hamfax 0.8.1
+
+commit 862345a
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Do not open hamlib rig for release only
+
+commit 53e81fc
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Set empty model for hamlib as default
+
+commit 8e87196
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix string termination for hamlib_parameters
+
+commit 73f32a1
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix hamlib usage when using ALSA
+
+commit e4d0755
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix "show tool tips" switch
+
+commit 892388f
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix checkable option menu entries
+
+commit 211ea9e
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    hamfax 0.8
+
+commit 7781a1c
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix compile warning in Sound::read() and update function
+
+commit 7dcb50d
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix segfaults due to uninitialized variables
+
+commit d95e192
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Switch ALSA implementation from notifiers to poll model
+
+commit f3e5227
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add object names to toolbars
+
+commit b122095
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix compile warning
+
+commit f4260d8
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Save and restore window size and state
+
+commit d821089
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix "Don't Exit" button
+
+commit 2966d23
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Introduce helper for adding OptionsDialog entries
+
+commit c656933
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Use hamlib "dummy" interface as default
+
+commit 57bb76b
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Use QInputDialog::getInteger instead of QInputDialog::getInt
+
+commit e2c89c0
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Remove unused HF_QT_THREAD ifdefs
+
+commit 837df77
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add TODO entry to remove the pixmap from Spectrum
+
+commit ff568ae
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add translations for message when help text file cannot be found.
+
+commit 20ee477
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Remove Qt3 support library
+
+commit 8947cf2
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Convert FaxWindow to avoid the Qt3 support functions
+
+commit 4379c2f
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Avoid Qt3 support functions in various files
+
+commit 742e0f4
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Implement FaxWindow without Q3Support headers
+
+commit ca79ee6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Use the documented Qt4 class QLibraryInfo for finding the Qt message files
+
+commit 3bc0921
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Implement FaxImage without Q3ScrollView
+
+commit c1c5290
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add section for compiling from source, without distribution tar file
+
+commit 1336687
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Implement FaxReceiver without Qt3 support classes
+
+commit a682156
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Implement DisplayLevel and Spectrum without Qt3 support classes
+
+commit 3db6a9c
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Implement help dialog without Qt3 support classes
+
+commit 58fe3b7
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Convert Qt3 layout classes to Qt4 classes
+
+commit 34fd4c4
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Port from Qt3 to Qt4
+
+commit f4aa782
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    hamfax 0.7
+
+commit a091d3f
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Write generated ChangeLog to distdir
+
+commit 160bc03
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Create ChangeLog from git history
+
+commit 859d69b
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Disable html doc generating rules
+
+commit 7be30f5
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix typo in EXTRA_DIST filename
+
+commit 240638d
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Change name from "HamFax" to "hamfax"
+
+commit 69ea7f7
+Author: Jean-michel Dechamps <jean-michel-62@orange.fr>
+
+    Complete french translation
+
+commit 74891d5
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Update German translation for new hamlib messages
+
+commit e20d6a9
+Author: Jean-michel Dechamps <jean-michel-62@orange.fr>
+
+    Update french translation file
+
+commit 0ea3bce
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add .gitignore: do not track temp and binary files
+
+commit 57ead0b
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add TODO to get sample rate from config file
+
+commit 85f11ff
+Author: Andrea Montefusco <andrew@montefusco.com>
+
+    HamFax 0.6.4 changed to interoperate with oss2jack
+
+commit da4fcb0
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Update TODO file
+
+commit 4807cbe
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Update AUTHORS file for ALSA and hamlib support
+
+commit 502d57e
+Author: Remi Chateauneu <remi.chateauneu@gmail.com>
+
+    Add hamlib support
+
+commit 0b629e2
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Limit maximum number of frames to transmit
+
+commit 96a0ee7
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Allow build without ALSA
+
+commit 660946e
+Author: Mike Nix <mnix@wanm.com.au>
+
+    Add ALSA Support
+
+commit 79775b2
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Load the Qt library translation files
+
+commit df9b4ad
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Update German translation file
+
+commit 767fb97
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add target 'make lupdate' for updating the .ts translation files
+
+commit a34d3e6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Disconnect from file object, not sound object
+
+commit 19acf46
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Improve saving of images
+
+commit 533670d
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Also build french translation
+
+commit ec1adf6
+Author: Jean-michel Dechamps <jean-michel-62@orange.fr>
+
+    Add translation file for french
+
+commit 4e1b25c
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Update spectrum display code based on changes from Jean-michel Déchamps
+
+commit a3d9183
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix build error from xml documentation
+
+commit d26587e
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix invalid memory access in LookUpTable
+
+commit 0bbe5ae
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Import manpage from debian package
+
+commit c69c080
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    HamFax 0.6.5
+
+commit 69238e6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add GPL v2 license file
+
+commit 8f93dd4
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Fix build problem with gcc 4.6 on 64 bit
+
+commit 48069a8
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Add desktop entry file hamfax.desktop
+
+commit 674bc42
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - use CXXFLAGS instead of AM_CPPFLAGS
+    - hamfax.xml documentation update
+    - docbook rules in Makefile
+
+commit f39ddac
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - lrelease project file no longer required, remove it
+
+commit dd2057b
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - correct FM key for PTC
+    - remove ambiguous key shortcut from german dialog text
+
+commit 3bff1da
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    update Qt autoconf macro
+
+commit d41f192
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    include man page in appendix, minor changes
+
+commit 67b20ac
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - conversion of documentation to docbook format
+
+commit f8260a7
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - Some doxygen comments.
+
+commit cf2fbe8
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    HamFax 0.6.4
+
+commit 271250d
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - Don't use typedef name as friend to allow compilation on GCC3.4
+
+commit 954a728
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - changed deprecated header qarray.h to qmemarray.h
+    - add error messages to configure for missing libaudiofile and soundfile.h
+
+commit e02d063
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Version 0.6.3
+
+commit a6f54cb
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    include hamfax_de.qm and HamFax.html in dist
+    make changes work with GCC 3.x (std::valarray)
+    use macros defined by automake (PACKAGE*)
+
+commit add067d
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    automake framework should be complete now
+
+commit 4276684
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    ChangLog update
+
+commit bb00796
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    added interfaces for device and modulator access
+
+commit e5b684e
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    build system switched to automake and autoconf
+
+commit 28f7a5b
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * switched to lrelease for creating the translation
+        (msg2qm is deprecated)
+
+commit bd3d7ec
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - some work towards new device structure
+     - fix for reading serial speed for PTC
+
+commit ccd4e26
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - FirFilter now the same as in UML diagram
+     - first implementation of InDevice and OutDevice
+
+commit 990b3e2
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * new FirFilter
+     * first UML draft
+
+commit 45a5c58
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * version 0.6
+     * update of CHANGELOG and TODO
+
+commit 7530188
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * created configure with autoconf 2.52
+     * corrected handling of lpm in FaxReceiver
+
+commit b7d787d
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - /etc/hamfaxrc
+    - lowercase directory names
+    - README update
+    - minor german translation update
+    - load translator first, then create window
+
+commit 0b049b6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - font handling changed
+
+commit 871a45c
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * fixed saving and loading of font for Qt3
+
+commit f445e56
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * fixed tool tip switch
+     * fixed moc for PTC and PTT
+
+commit f93dc46
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * minor changes
+
+commit 616eadd
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * handle sample rate without signals and slots
+     * reordering in FaxWindow
+
+commit d0def69
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * major changes!
+     * use QSettings for Configuration
+     * overall cleanup, mainly in FaxWindow
+     * objects get config values directly from Config
+
+commit 7853a56
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * new autoconf macro for search Qt
+
+commit 86e3748
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * include cmath instead of math.h and use namespace prefix
+     * documentation for FaxModulator
+
+commit 9130c6e
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * OptionsDialog accesses Config directly
+     * version number in window captions
+
+commit 01c0922
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * made class Config a singleton
+     * most objects now register themselves with Config
+
+commit a60f245
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * german translation update
+     * error if QMDIR is not defined
+
+commit f329171
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * removal of directory doxygen
+
+commit e58772d
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * doxygen config in doc/
+     * updated documentation of class FirFilter
+
+commit 35ce344
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * hamfax_de.po seems to be in wrong directory
+
+commit f48f09b
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * source code is now in src/
+     * translations are now in po/
+     * directory doxygen/
+     * split of Makefile
+
+commit c050a77
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * font selection dialog
+
+commit 74636c3
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * german translation (first try)
+
+commit a482025
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * use class LookUpTable for sine in FaxModulator
+
+commit 091ff27
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * new class LookUpTable
+     * use class LookUpTable for sine, cosine and arc sine in FaxDemodulator
+
+commit 814111a
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - new class FirFilter
+     - FaxDemodulator uses class FirFilter
+     - new make target distclean
+
+commit 57f6d13
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     * update to autoconf 2.52
+
+commit 4c26982
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - use Qt's locale method
+
+commit 1eb5778
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - test comment removed
+
+commit 5b1c897
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - TODO update
+     - 0.5.2 should be released
+
+commit e397ce8
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - #include fixed, error occured with Qt3.0
+
+commit fef631e
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - failed read on sound device no longer does crash the program :)
+     - minimal carrier frequency of 800Hz
+     - the sound card may use a sample rate of 8000Hz+-1%
+
+commit 0522f46
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - fixed crash because of uninitialized FaxReceiver::imageSample
+     - version 0.5.1
+
+commit 9915acf
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - a lot of work in to do list
+
+commit db78e64
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - fixed wrong handling of closing audio file
+
+commit 55a9d62
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - TODO entry
+
+commit 503d9a8
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - added uninstall target
+
+commit 79ed92f
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - fixed handling of escape key in dialogs
+
+commit 10c9ae1
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - error message for PTC device
+
+commit 1fb685c
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - changed version number to 0.5
+     - changelog entry
+
+commit cf96485
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - removed unnecessary variables
+
+commit 2222bea
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - added info in html help
+
+commit 16f1a02
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - disconnect fixed while transmitting to file
+     - static const blockSize in File.hpp
+
+commit 2538e11
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - removed variable sampleRate from File
+
+commit 9592472
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - changed mail address to sourceforge
+
+commit c99fd70
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - line length in samples changed to double in FaxTransmitter
+
+commit 01b5b76
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - mail address changed
+
+commit becfce5
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - fixed type in CHANGELOG
+
+commit d84c2a2
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - init for demodulator and modulator
+     - documentation changes
+
+commit 6047f58
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - small fixes
+
+commit d089cdd
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - preparations for 0.4
+     - cleanup in FaxReceiver and FaxTransmitter
+
+commit 7ec4e27
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - minor changes and cleanup
+
+commit 2de7335
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - added the three filters from ACfax
+
+commit 98f442e
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - some code cleanup
+
+commit b1f0377
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - some clean up in File, PTC and Sound
+
+commit 5ebb86c
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - spectrum display in ReceiveDialog
+     - configuration option for ptc serial speed
+
+commit 71570fa
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - when exiting the program while receiving the ptc now leaves fax mode
+
+commit 8a77f31
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - fixed destructors
+     - Config now completely uses connect
+     - captions of dialogs are set in the dialog's constructors
+
+commit d2fa622
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - ptt now works correct
+
+commit 2be4c23
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - code clean up: unnecessary signed and unsigned
+     - cast changes
+
+commit e1db5f7
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - some cast fixes
+
+commit 9a768e0
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - some clean up
+     - handling of options dialog
+     - scaling and changing ioc
+
+commit 54db8c4
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - better handling of directories in autoconf
+     - shifting image now works correct
+     - changes to handle buffered data at transmission end
+     - cancelling of transmission now switches to apt stop
+
+commit 0bf57d7
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - help text
+
+commit 1062666
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - help text
+     - little fixes
+
+commit 27c5207
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - HamFax.html now is in directory doc
+
+commit 9c68bf6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - changed version number to 0.3
+     - set border of dialogs to 15
+     - update to CHANGELOG and TODO
+
+commit 7d98b41
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - ReceiveDialog now behaves better
+
+commit cec7005
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - some fixes mainly in FaxWindow and FaxImage
+     - added HelpDialog
+
+commit ecd24e7
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - help text HamFax.html
+
+commit e65dfa8
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - clean up, especiallay FaxImage and FaxWindow
+     - HelpDialog added
+
+commit 9bd1166
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - tool tips
+
+commit 9f40f5e
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - received demodulated data is now stored in FaxReceiver
+     - phasing can be skipped, too
+
+commit 28c2a24
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - cleanup for PTT
+
+commit 5b21ba6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - fix in Sound
+     - removed ReceiveDialog* and TransmitDialog* members in FaxWindow
+
+commit 79d4114
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - slant correction out of raw data
+
+commit 69c5f87
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - merged FaxView and FaxImage into FaxImage
+     - fixed transmitting to and receiving from File
+
+commit f1675b6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - implemented QSocketNotifier (Sound and PTC) and QTimer (File)
+
+commit 3e215f3
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - slant correction (from QImage to QImage)
+     - first implementation of color fax
+
+commit 10e45dc
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - slant correction
+
+commit 17da5f8
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - removed FaxControl
+
+commit cb74cc6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - control elements from FaxControl moved to toolbars
+     - more consistent naming of variables indicating phasing lines
+
+commit 0420053
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - version number set to 0.2 in README
+
+commit eaca9ed
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - +-2Hz tolerance with apt removed
+     - image is no longer resized to null image
+     - changes to phasing reception
+
+commit 55d43ad
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - QImage::save() is always called with correct handler
+     - DisplayStatus is set to zero when window is shown
+
+commit c098848
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - new file: CHANGELOG
+     - this is going to be version 0.2
+
+commit ecb899b
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - auto scroll switch in options menu should be correct now
+     - some changes to phase transmission
+
+commit ea0a300
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - added statusbar
+     - switch for scrolling to last received line
+
+commit 1111bb6
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - DisplayLevel added
+
+commit eecc652
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - removed widthUpdated from FaxImage
+     - moved scaleImage from FaxWindow to FaxImage
+
+commit b0aca32
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - saving and loading in all Qt image formats possible
+     - proper initialisation of lpm in FaxTransmitter
+
+commit 238ea84
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - configuration file via class Config
+     - this made some code changes necessary
+     - some changes to README
+
+commit 67a6c40
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - added quick save in File menu
+    - changed version number to 0.1
+
+commit 9d79825
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - image reception should start after 5 non phasing lines
+    - if image too small 50 lines are added instead of 20
+    - starting image is 904x1
+    - ptc sets now deviation on init
+    - changed signals between FaxTransmitter and TransmitDialog
+    - added scaling and resizing options to image menu
+
+commit d91a155
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - renamed phasePol in FaxReceiver to phaseNormal
+    - some improvements and a comment for the decoding of phasing lines
+    - cleanup in layout of FaxControl and FaxWindow
+    - adjusted size of TransmitDialog and ReceiveDialog
+    - some minor cleanup in FaxWindow
+
+commit 8183a57
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - changed appearance of menu bar
+    - added QFrame for lower left corner
+    - phasing low/high detection now like apt detection
+    - moved receive status texts from FaxReceiver to ReceiveDialog
+
+commit 4a99469
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - got rid of FaxImage* in FaxReceiver
+    - changed values for apt detection
+    - implemented scrolling to current received line
+    - some cleanup in FaxWindow::load and FaxWindow::save
+
+commit 5258ebc
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    - removed Makefile; it is generated by configure before compiling
+
+commit 65addab
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+     - added callsign to author's name
+     - changed text in FaxWindow::about
+
+commit b266da2
+Author: Christof Schmitt <cschmitt@users.sourceforge.net>
+
+    Initial revision

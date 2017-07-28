@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+  <html>
+  <head>
+    <title>linfax Manual</title>
+  </head>
+  <body>
+    <h1>linfax help</h1>
+
+    <h2>about linfax</h2>
+
+    <p>linfax is an application for sending and receiving facsimilies in
+      amateur radio. You can either use a sound card as interface to the
+      transceiver or a SCS-PTC-II. Receiving of weather facsimile broadcasts
+      is also possible.</p>
+
+    <p>The program is licensed under the terms of the GNU General Public
+      License. See https://yiyangwang.us/ for further information
+      and new releases.</p>
+
+    <h2>about facsimiles</h2>
+
+    <h3>general</h3>
+
+    <p>Facsimiles are pictures which are transmitted line by line. The sending
+      and receiving station have to agree on the transmission speed (LPM
+      stands for lines per minute) and the IOC (index of cooperation) which
+      corresponds the line width. The information transmitted is the
+      brightness of the current position.</p>
+
+    <p>The beginning of a transmission is marked with a APT start signal (APT
+      stands for automatic picture transmission). Usually this is a black/white
+      pattern which changes between black and white at 300Hz.</p>
+
+    <h3>short wave facsimiles</h3>
+
+    <p>Facsimiles on short wave are frequency modulated, that means the
+      frequency of the carrier is changing with the transmitted information
+      (the current brightness). Usually the deviation is 400Hz, so the
+      frequency for white is 800Hz higher than the one for black.</p>
+
+    <p>For information about stations broadcasting weather maps, see the
+      program's homepage.</p>
+
+    <h3>weather satellites</h3>
+
+    <p>For receiving facsimiles from a weather satellite a suitable FM
+      receiver is needed. The output of this receiver is a amplitude modulated
+      signal where the maximum amplitude corresponds to white and no amplitude
+      means black.</p>
+
+    <h2>using hamfax</h2>
+
+    <h3>interface setup</h3>
+
+    <p>You can either use a SCS PTC-II as modulator and demodulator or
+      connect a sound card to your transceiver. For the PTC refer to the
+      manual, especially the chapter about interfacing transceiver, PTC and
+      computer. When using a sound card you need to connect line-out to the
+      microphone input (or something similar) of the transceiver and line-in to
+      some output of the transceiver. The RTS signal of a serial port can be
+      used to key the PTT as it is often use for PSK31. A simple transistor is
+      often enough to do the job.</p>
+
+    <p>For both interfaces you have to switch your transceiver to USB (upper
+      side band). In hamfax set carrier to 1900kHz and tune your transceiver
+      1900kHz below the desired frequency.</p>
+
+    <h3>receiving facsimiles</h3>
+
+    <p>Set deviation, modulation apt start and stop frequencies, lpm, the type
+      of phasing lines (normal or inverted) and the mono/color switch to the
+      appropriate values. Then choose the desired interface in the receive menu
+      and see what happens. :)</p>
+
+    <p>If the apt start tone is not detected properly or you missed it you can
+      skip it by clicking the skip button. If you missed the phasing lines you
+      can skip the phasing detection and the value from the lpm checkbox is
+      used.</p>
+
+    <p>While receiving the raw data is stored in memory. So it is possible to
+      correct the received image with the menu items in the Image menu. The
+      image can be saved in any format supported by Qt.</p>
+
+    <h3>redirect audio out to mic in via pulseaudio</h3>
+
+    <p>1) Open PulseAudio Volume Control.</p>
+
+    <p>This is pavucontrol on the command line, and in Fedora is provided by
+      the package pavucontrol.
+      Go to the "Input Devices" tab, and select "Show: Monitors" from the
+      bottom of the window. If your computer is currently playing audio, you
+      should see a bar showing the volume of the output.</p>
+
+    <p>2) Start running linfax and click "Receive from dsp" to recording audio
+     from Mic in, and go to the "Recording" tab and see if linfax is
+     listed.</p>
+
+    <p>3) Click the input device button ("ALSA Capture from") and pick
+         "Monitor of Internal Audio Analog Stereo.")</p>
+
+    <p>And that's pretty much it. If you see volume bars on the Recording tab
+      now then it's probably working, and the recording app is now recording
+      your audio output.</p>
+
+    <h3>sending facsimiles</h3>
+
+    <p>Load the image from somewhere. Then set the control items to the desired
+      values and scale the image to the desired IOC. Just select the right item
+      from the transmit menu and you are on the way.</p>
+
+    <hr>
+    <address>Author: Yiyang Wang
+      &lt;tonych@protonmail.ch&gt;</address>
+  </body>
+  </html>

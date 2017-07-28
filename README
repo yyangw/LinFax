@@ -1,0 +1,101 @@
+hamfax
+******
+
+Copyright (C) 2001, 2002, 2003
+Christof Schmitt, DH1CS <cschmitt@users.sourceforge.net>
+
+hamfax is a Qt/X11 application for sending and receiving
+facsimiles. It is licensed under the GNU General Public License (GPL),
+see the file COPYING for the complete text.
+
+If you have questions or comments please send them to me
+(cschmitt@users.sourceforge.net). I would like to have some feedback.
+
+New versions of this program and some related information can be found
+at http://hamfax.sourceforge.net/
+
+Requirements:
+************
+
+Hardware:
+ - computer (of course)
+ - transceiver
+ - a working sound card and/or a SCS-PTC (http://www.scs-ptc.com/)
+
+Software:
+ - Linux (Other Unix-like operating systems may work, too. Please
+          report success or failures.)
+ - X11
+ - Qt v3.0 or newer (http://www.trolltech.com/)
+ - Audiofile (http://www.68k.org./~michael/audiofile/)
+ - Support for the Open Sound System (OSS) or something compatible
+
+Note: They are standard packages in most recent linux distributions.
+
+Notes / Features:
+*****************
+
+ - All image formats supported by Qt can be used.
+ 
+ - Facsimiles written to a AU-file have a sample rate of 8000Hz and
+   16Bit/sample. This is the same format used for reading from and
+   writing to the sound interface.
+
+ - The data rate between the SCS-PTC and the computer can be set
+   to 38400bit/s, 57600bit/s or 115200bit/s. With the start of
+   transmission or reception the PTC is expected to be in the
+   main menu. If hamfax does not put the PTC in fax mode, just
+   turn it off and on, and it should work. ;-)
+
+ - While doing frequency modulation (used on shortwave), the PTC
+   mode JVCOMM is used which does hardware handshaking on the
+   serial line. With amplitude modulation (used on transmissions
+   from satellites) the mode AMFAX is used, which does no
+   handshake at all, so data might get lost.
+ 
+ - Transmitting:
+    - Check the options menu and adjust everything as you need
+    - Load the desired image with File->Open
+    - Set the transmission parameters
+    - Use Image->'Scale to ICO' to adjust the image size to the
+      desired index of cooperation (IOC).
+    - Select the desired mode in the transmit menu
+ - Reception:
+    - Set the parameters (note: the apt and phasing length are ignored)
+    - Select the desired mode in the receive menu
+
+see file TODO for information on missing features
+
+Installation:
+*************
+
+hamfax uses automake and autoconf for the build process.  For building
+from a tar ball you don't need them, only if you grab the code from
+the CVS.  The easy way is (after untaring and changing the directory):
+
+./configure
+make
+make install
+
+If you are not compiling from a tar ball, the autotools scripts have to be
+generated first: Check that autotool-dev is installed on your system, then
+run:
+
+autoreconf -f -i
+./configure
+make
+make install
+
+Check the documentation in INSTALL for questions on build options.
+
+If configure fails, check that you have the required software (see
+above) available on your system; especially Qt3 and Qt3's development
+files.  Next check where Qt's files are located and specify the
+locations.  For instance:
+
+./configure --with-Qt-dir=/usr/lib/qt3 --with-Qt-includes=/usr/lib/qt3/include
+
+-- 
+73 and have fun :)
+
+Christof, DH1CS
