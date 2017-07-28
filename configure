@@ -550,11 +550,11 @@ MFLAGS=
 MAKEFLAGS=
 
 # Identity of this package.
-PACKAGE_NAME='hamfax'
-PACKAGE_TARNAME='hamfax'
-PACKAGE_VERSION='0.8.1'
-PACKAGE_STRING='hamfax 0.8.1'
-PACKAGE_BUGREPORT='cschmitt@users.sourceforge.net'
+PACKAGE_NAME='linfax'
+PACKAGE_TARNAME='linfax'
+PACKAGE_VERSION='0.1.1'
+PACKAGE_STRING='linfax 0.1.1'
+PACKAGE_BUGREPORT='tonych@protonmail.ch'
 PACKAGE_URL=''
 
 # Factoring default headers for most tests.

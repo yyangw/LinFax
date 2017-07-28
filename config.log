@@ -143,14 +143,14 @@ compilation terminated.
 configure:3595: $? = 1
 configure: failed program was:
 | /* confdefs.h */
-| #define PACKAGE_NAME "hamfax"
-| #define PACKAGE_TARNAME "hamfax"
-| #define PACKAGE_VERSION "0.8.1"
-| #define PACKAGE_STRING "hamfax 0.8.1"
-| #define PACKAGE_BUGREPORT "cschmitt@users.sourceforge.net"
+| #define PACKAGE_NAME "linfax"
+| #define PACKAGE_TARNAME "linfax"
+| #define PACKAGE_VERSION "0.1.1"
+| #define PACKAGE_STRING "linfax 0.1.1"
+| #define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 | #define PACKAGE_URL ""
-| #define PACKAGE "hamfax"
-| #define VERSION "0.8.1"
+| #define PACKAGE "linfax"
+| #define VERSION "0.1.1"
 | #define USE_FILE 1
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
@@ -165,14 +165,14 @@ compilation terminated.
 configure:3654: $? = 1
 configure: failed program was:
 | /* confdefs.h */
-| #define PACKAGE_NAME "hamfax"
-| #define PACKAGE_TARNAME "hamfax"
-| #define PACKAGE_VERSION "0.8.1"
-| #define PACKAGE_STRING "hamfax 0.8.1"
-| #define PACKAGE_BUGREPORT "cschmitt@users.sourceforge.net"
+| #define PACKAGE_NAME "linfax"
+| #define PACKAGE_TARNAME "linfax"
+| #define PACKAGE_VERSION "0.1.1"
+| #define PACKAGE_STRING "linfax 0.1.1"
+| #define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 | #define PACKAGE_URL ""
-| #define PACKAGE "hamfax"
-| #define VERSION "0.8.1"
+| #define PACKAGE "linfax"
+| #define VERSION "0.1.1"
 | #define USE_FILE 1
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
@@ -251,14 +251,14 @@ collect2: error: ld returned 1 exit status
 configure:4004: $? = 1
 configure: failed program was:
 | /* confdefs.h */
-| #define PACKAGE_NAME "hamfax"
-| #define PACKAGE_TARNAME "hamfax"
-| #define PACKAGE_VERSION "0.8.1"
-| #define PACKAGE_STRING "hamfax 0.8.1"
-| #define PACKAGE_BUGREPORT "cschmitt@users.sourceforge.net"
+| #define PACKAGE_NAME "linfax"
+| #define PACKAGE_TARNAME "linfax"
+| #define PACKAGE_VERSION "0.1.1"
+| #define PACKAGE_STRING "linfax 0.1.1"
+| #define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 | #define PACKAGE_URL ""
-| #define PACKAGE "hamfax"
-| #define VERSION "0.8.1"
+| #define PACKAGE "linfax"
+| #define VERSION "0.1.1"
 | #define USE_FILE 1
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
@@ -424,13 +424,13 @@ LTLIBOBJS=''
 MAKEINFO='${SHELL} /home/Tony/Applications/linfax-0.1.1/missing --run makeinfo'
 MKDIR_P='/usr/bin/mkdir -p'
 OBJEXT='o'
-PACKAGE='hamfax'
-PACKAGE_BUGREPORT='cschmitt@users.sourceforge.net'
-PACKAGE_NAME='hamfax'
-PACKAGE_STRING='hamfax 0.8.1'
-PACKAGE_TARNAME='hamfax'
+PACKAGE='linfax'
+PACKAGE_BUGREPORT='tonych@protonmail.ch'
+PACKAGE_NAME='linfax'
+PACKAGE_STRING='linfax 0.1.1'
+PACKAGE_TARNAME='linfax'
 PACKAGE_URL=''
-PACKAGE_VERSION='0.8.1'
+PACKAGE_VERSION='0.1.1'
 PATH_SEPARATOR=':'
 PKG_CONFIG='/usr/bin/pkg-config'
 PKG_CONFIG_LIBDIR=''
@@ -450,7 +450,7 @@ USE_OSS_FALSE='#'
 USE_OSS_TRUE=''
 USE_PTC_FALSE=''
 USE_PTC_TRUE='#'
-VERSION='0.8.1'
+VERSION='0.1.1'
 XMLTO=''
 ac_ct_CXX='g++'
 am__EXEEXT_FALSE=''
@@ -496,14 +496,14 @@ target_alias=''
 ## ----------- ##
 
 /* confdefs.h */
-#define PACKAGE_NAME "hamfax"
-#define PACKAGE_TARNAME "hamfax"
-#define PACKAGE_VERSION "0.8.1"
-#define PACKAGE_STRING "hamfax 0.8.1"
-#define PACKAGE_BUGREPORT "cschmitt@users.sourceforge.net"
+#define PACKAGE_NAME "linfax"
+#define PACKAGE_TARNAME "linfax"
+#define PACKAGE_VERSION "0.1.1"
+#define PACKAGE_STRING "linfax 0.1.1"
+#define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 #define PACKAGE_URL ""
-#define PACKAGE "hamfax"
-#define VERSION "0.8.1"
+#define PACKAGE "linfax"
+#define VERSION "0.1.1"
 #define USE_FILE 1
 #define STDC_HEADERS 1
 #define HAVE_SYS_TYPES_H 1
