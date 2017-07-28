@@ -1,7 +1,7 @@
 // hamfax -- an application for sending and receiving amateur radio facsimiles
 // Copyright (C) 2001,2002
 // Christof Schmitt, DH1CS <cschmitt@users.sourceforge.net>
-//  
+//
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
 // as published by the Free Software Foundation; either version 2
@@ -11,7 +11,7 @@
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
-//  
+//
 // You should have received a copy of the GNU General Public License
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
@@ -62,7 +62,7 @@ void FaxReceiver::decode(int* buf, int n)
 	}
 }
 
-// The number of transistions between black and white is counted. After 1/2 
+// The number of transistions between black and white is counted. After 1/2
 // second, the frequency is calculated. If it matches the APT start frequency,
 // the state skips to the detection of phasing lines, if it matches the apt
 // stop frequency two times, the reception is ended.
@@ -98,7 +98,7 @@ void FaxReceiver::decodeApt(const int& x)
 // Phasing lines consist of 2.5% white at the beginning, 95% black and again
 // 2.5% white at the end (or inverted). In normal phasing lines we try to
 // count the length between the white-black transitions. If the line has
-// a reasonable amount of black (4.8%--5.2%) and the length fits in the 
+// a reasonable amount of black (4.8%--5.2%) and the length fits in the
 // range of 60--360lpm (plus some tolerance) it is considered a valid
 // phasing line. Then the start of a line and the lpm is calculated.
 
@@ -144,7 +144,7 @@ void FaxReceiver::decodeImage(const int& x)
 {
 	int col=static_cast<int>(width*std::fmod(imageSample,sampleRate*60/lpm)
 				 /sampleRate/60.0*lpm);
-	int currRow=static_cast<int>(imageSample*lpm/60.0/sampleRate);
+	int currRow=static_cast<int>(imageSample*lpm/120.0/sampleRate);
 	rawData[imageSample]=x;
 	if(col==lastCol) {
 		pixel+=x;
@@ -152,7 +152,7 @@ void FaxReceiver::decodeImage(const int& x)
 	} else {
 		if(pixelSamples>0) {
 			pixel/=pixelSamples;
-			emit setPixel(lastCol, color?currRow/3:currRow, 
+			emit setPixel(lastCol, color?currRow/3:currRow,
 				      pixel,color?currRow%3:3);
 			if(lastRow!=currRow && state!=PHASING) {
 				emit row((lastRow=currRow)/(color?3:1));

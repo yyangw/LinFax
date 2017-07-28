@@ -145,12 +145,12 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "linfax"
 | #define PACKAGE_TARNAME "linfax"
-| #define PACKAGE_VERSION "0.1.1"
-| #define PACKAGE_STRING "linfax 0.1.1"
+| #define PACKAGE_VERSION "0.1.2"
+| #define PACKAGE_STRING "linfax 0.1.2"
 | #define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 | #define PACKAGE_URL ""
 | #define PACKAGE "linfax"
-| #define VERSION "0.1.1"
+| #define VERSION "0.1.2"
 | #define USE_FILE 1
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
@@ -167,12 +167,12 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "linfax"
 | #define PACKAGE_TARNAME "linfax"
-| #define PACKAGE_VERSION "0.1.1"
-| #define PACKAGE_STRING "linfax 0.1.1"
+| #define PACKAGE_VERSION "0.1.2"
+| #define PACKAGE_STRING "linfax 0.1.2"
 | #define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 | #define PACKAGE_URL ""
 | #define PACKAGE "linfax"
-| #define VERSION "0.1.1"
+| #define VERSION "0.1.2"
 | #define USE_FILE 1
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
@@ -253,12 +253,12 @@ configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "linfax"
 | #define PACKAGE_TARNAME "linfax"
-| #define PACKAGE_VERSION "0.1.1"
-| #define PACKAGE_STRING "linfax 0.1.1"
+| #define PACKAGE_VERSION "0.1.2"
+| #define PACKAGE_STRING "linfax 0.1.2"
 | #define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 | #define PACKAGE_URL ""
 | #define PACKAGE "linfax"
-| #define VERSION "0.1.1"
+| #define VERSION "0.1.2"
 | #define USE_FILE 1
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
@@ -389,14 +389,14 @@ pkg_cv_Qt4_LIBS='-lQtGui -lQtCore '
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/Tony/Applications/linfax-0.1.1/missing --run aclocal-1.11'
+ACLOCAL='${SHELL} /home/Tony/Applications/linfax-0.1.2/missing --run aclocal-1.11'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
-AMTAR='${SHELL} /home/Tony/Applications/linfax-0.1.1/missing --run tar'
-AUTOCONF='${SHELL} /home/Tony/Applications/linfax-0.1.1/missing --run autoconf'
-AUTOHEADER='${SHELL} /home/Tony/Applications/linfax-0.1.1/missing --run autoheader'
-AUTOMAKE='${SHELL} /home/Tony/Applications/linfax-0.1.1/missing --run automake-1.11'
+AMTAR='${SHELL} /home/Tony/Applications/linfax-0.1.2/missing --run tar'
+AUTOCONF='${SHELL} /home/Tony/Applications/linfax-0.1.2/missing --run autoconf'
+AUTOHEADER='${SHELL} /home/Tony/Applications/linfax-0.1.2/missing --run autoheader'
+AUTOMAKE='${SHELL} /home/Tony/Applications/linfax-0.1.2/missing --run automake-1.11'
 AWK='gawk'
 CPPFLAGS=''
 CXX='g++'
@@ -421,16 +421,16 @@ LIBOBJS=''
 LIBS=' -laudiofile -lasound'
 LRELEASE='/usr/lib64/qt4/bin//lrelease'
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /home/Tony/Applications/linfax-0.1.1/missing --run makeinfo'
+MAKEINFO='${SHELL} /home/Tony/Applications/linfax-0.1.2/missing --run makeinfo'
 MKDIR_P='/usr/bin/mkdir -p'
 OBJEXT='o'
 PACKAGE='linfax'
 PACKAGE_BUGREPORT='tonych@protonmail.ch'
 PACKAGE_NAME='linfax'
-PACKAGE_STRING='linfax 0.1.1'
+PACKAGE_STRING='linfax 0.1.2'
 PACKAGE_TARNAME='linfax'
 PACKAGE_URL=''
-PACKAGE_VERSION='0.1.1'
+PACKAGE_VERSION='0.1.2'
 PATH_SEPARATOR=':'
 PKG_CONFIG='/usr/bin/pkg-config'
 PKG_CONFIG_LIBDIR=''
@@ -450,7 +450,7 @@ USE_OSS_FALSE='#'
 USE_OSS_TRUE=''
 USE_PTC_FALSE=''
 USE_PTC_TRUE='#'
-VERSION='0.1.1'
+VERSION='0.1.2'
 XMLTO=''
 ac_ct_CXX='g++'
 am__EXEEXT_FALSE=''
@@ -474,7 +474,7 @@ host_alias=''
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/Tony/Applications/linfax-0.1.1/install-sh'
+install_sh='${SHELL} /home/Tony/Applications/linfax-0.1.2/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
@@ -498,12 +498,12 @@ target_alias=''
 /* confdefs.h */
 #define PACKAGE_NAME "linfax"
 #define PACKAGE_TARNAME "linfax"
-#define PACKAGE_VERSION "0.1.1"
-#define PACKAGE_STRING "linfax 0.1.1"
+#define PACKAGE_VERSION "0.1.2"
+#define PACKAGE_STRING "linfax 0.1.2"
 #define PACKAGE_BUGREPORT "tonych@protonmail.ch"
 #define PACKAGE_URL ""
 #define PACKAGE "linfax"
-#define VERSION "0.1.1"
+#define VERSION "0.1.2"
 #define USE_FILE 1
 #define STDC_HEADERS 1
 #define HAVE_SYS_TYPES_H 1
