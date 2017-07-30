@@ -317,6 +317,7 @@ on usr0-yiyangwang-us
 
 config.status:876: creating Makefile
 config.status:876: creating src/config.h
+config.status:1056: src/config.h is unchanged
 config.status:1104: executing depfiles commands
 
 ## ---------------- ##

@@ -1,7 +1,7 @@
 // hamfax -- an application for sending and receiving amateur radio facsimiles
 // Copyright (C) 2001,2002
 // Christof Schmitt, DH1CS <cschmitt@users.sourceforge.net>
-//  
+//
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
 // as published by the Free Software Foundation; either version 2
@@ -11,7 +11,7 @@
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
-//  
+//
 // You should have received a copy of the GNU General Public License
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
@@ -44,13 +44,13 @@ int FaxImage::getPixel(int col, int row, int rgbg)
 	QRgb pixel=image.pixel(col,row);
 	int value;
 	switch(rgbg) {
-	case 0: 
+	case 0:
 		value=qRed(pixel);
 		break;
-	case 1: 
+	case 1:
 		value=qGreen(pixel);
 		break;
-	case 2: 
+	case 2:
 		value=qBlue(pixel);
 		break;
 	default:
@@ -189,7 +189,7 @@ void FaxImage::correctSlant(void)
 {
 	emit widthAdjust(static_cast<double>
 			 (slant2.x()-slant1.x())/(slant1.y()-slant2.y())
-			 /image.width());
+			 /image.width()/2);
 }
 
 void FaxImage::mousePressEvent(QMouseEvent* m)
