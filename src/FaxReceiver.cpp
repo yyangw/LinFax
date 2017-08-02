@@ -144,7 +144,7 @@ void FaxReceiver::decodeImage(const int& x)
 {
 	int col=static_cast<int>(width*std::fmod(imageSample,sampleRate*60/lpm)
 				 /sampleRate/60.0*lpm);
-	int currRow=static_cast<int>(imageSample*lpm/120.0/sampleRate);
+	int currRow=static_cast<int>(imageSample*lpm/90.0/sampleRate);
 	rawData[imageSample]=x;
 	if(col==lastCol) {
 		pixel+=x;

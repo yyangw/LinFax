@@ -130,7 +130,7 @@ FaxWindow::FaxWindow(const QString& version)
 	connect(faxImage,SIGNAL(widthAdjust(double)),
 		faxReceiver,SLOT(correctLPM(double)));
 
-	faxImage->create(904,904);
+	faxImage->create(904,1374);
 
 	restoreGeometry(Config::instance().value("GUI/geometry").toByteArray());
 	restoreState(Config::instance().value("GUI/windowState").toByteArray());

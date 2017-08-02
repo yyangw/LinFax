@@ -189,7 +189,7 @@ void FaxImage::correctSlant(void)
 {
 	emit widthAdjust(static_cast<double>
 			 (slant2.x()-slant1.x())/(slant1.y()-slant2.y())
-			 /image.width()/2);
+			 /image.width()/1.5);
 }
 
 void FaxImage::mousePressEvent(QMouseEvent* m)
