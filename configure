@@ -552,8 +552,8 @@ MAKEFLAGS=
 # Identity of this package.
 PACKAGE_NAME='linfax'
 PACKAGE_TARNAME='linfax'
-PACKAGE_VERSION='0.1.3'
-PACKAGE_STRING='linfax 0.1.3'
+PACKAGE_VERSION='0.1.4'
+PACKAGE_STRING='linfax 0.1.4'
 PACKAGE_BUGREPORT='tonych@protonmail.ch'
 PACKAGE_URL='https://github.com/YiyangVVang/LinFax'
 
